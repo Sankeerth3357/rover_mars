@@ -1,0 +1,6 @@
+class TurnLeft implements Command {
+    @Override
+    public void execute(Rover rover) {
+        rover.turnLeft();
+    }
+}
